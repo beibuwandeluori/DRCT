@@ -3,3 +3,6 @@ The official code of "DRCT: Diffusion Reconstruction Contrastive Training toward
 
 [Average frequency spectra](./AvergeFrequencySpectra.pdf)
 - Average frequency spectra of Real、Real_Rec、SDv1.4、SDv1.4_Rec and SDv2
+
+[Reconstruction error maps](./res_error.pdf)
+- Reconstruction error maps of Real、Real_Rec、SDv1.4、SDv1.4_Rec and SDv2
