@@ -9,3 +9,6 @@ The official code of "DRCT: Diffusion Reconstruction Contrastive Training toward
 
 ![image](./Algorithm1.png)
 - Algorithm 1 Diffusion Reconstrcution Process from Input Image to Reconstrcuted Image
+
+![image](./merge_analyse.png)
+- Semantics Analysis for DRCR.
