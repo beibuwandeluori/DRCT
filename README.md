@@ -6,3 +6,5 @@ The official code of "DRCT: Diffusion Reconstruction Contrastive Training toward
 
 [Reconstruction error maps](./rec_error.pdf)
 - Reconstruction error maps of Real、Real_Rec、SDv1.4、SDv1.4_Rec and SDv2
+
+![Algorithm 1 Diffusion Reconstrcution Process from Input Image to Reconstrcuted Image](./Algorithm1.png)
