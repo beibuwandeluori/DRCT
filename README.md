@@ -114,7 +114,6 @@ Our code is developed based on [CNNDetection](https://github.com/peterwang512/CN
 ## Citation
 If you find this work useful for your research, please kindly cite our paper:
 ```
-
 @InProceedings{pmlr-v235-chen24ay,
   title = 	 {{DRCT}: Diffusion Reconstruction Contrastive Training towards Universal Detection of Diffusion Generated Images},
   author =       {Chen, Baoying and Zeng, Jishen and Yang, Jianquan and Yang, Rui},
