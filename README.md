@@ -1,5 +1,5 @@
 # DRCT: Diffusion Reconstruction Contrastive Training towards Universal Detection of Diffusion Generated Images
-The official code of [DRCT: Diffusion Reconstruction Contrastive Training towards Universe Detection of Diffusion Generated Images](https://icml.cc/virtual/2024/poster/33086) ([pdf](https://openreview.net/pdf?id=oRLwyayrh1)), 
+The official code of [DRCT: Diffusion Reconstruction Contrastive Training towards Universe Detection of Diffusion Generated Images](https://icml.cc/virtual/2024/poster/33086) ([pdf](https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24ay/chen24ay.pdf)), 
 which was accepted by ICML2024 Spotlight.
 ## DRCT
 The DRCT framework consists of two stages:
@@ -62,7 +62,7 @@ python train_contrastive.py --root_path /disk1/chenby/dataset/AIGC_data/DRCT_dat
                             --save_flag _drct_amp_crop
 ```
 ## Testing 
-- download pretrained weights: [modelscore](https://modelscope.cn/datasets/BokingChen/DRCT-2M/files)
+- download pretrained weights in modelscope: [pretrained.zip](https://modelscope.cn/datasets/BokingChen/DRCT-2M/files)
 ### Intra-Dataset
 - trained and tested on DRCT-2M
 ```
@@ -114,9 +114,18 @@ Our code is developed based on [CNNDetection](https://github.com/peterwang512/CN
 ## Citation
 If you find this work useful for your research, please kindly cite our paper:
 ```
-@inproceedings{chendrct,
-  title={DRCT: Diffusion Reconstruction Contrastive Training towards Universal Detection of Diffusion Generated Images},
-  author={Chen, Baoying and Zeng, Jishen and Yang, Jianquan and Yang, Rui},
-  booktitle={Forty-first International Conference on Machine Learning}
+@InProceedings{pmlr-v235-chen24ay,
+  title = 	 {{DRCT}: Diffusion Reconstruction Contrastive Training towards Universal Detection of Diffusion Generated Images},
+  author =       {Chen, Baoying and Zeng, Jishen and Yang, Jianquan and Yang, Rui},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {7621--7639},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/chen24ay/chen24ay.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/chen24ay.html}}
 }
 ```
