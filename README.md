@@ -103,6 +103,8 @@ bash test_GenImage.sh clip-ViT-L-14 ../output/pretrained/DRCT-2M/sdv2/clip-ViT-L
 - trained and tested on GenImage
 ![GenImage](./figures/Intra_GenImage.png)
 
+⚠️ Correction Note: Due to an oversight, the actual accuracy when testing BigGAN using DRCT (Conv-B) is 59.81%.
+
 ### Cross-Dataset Evaluation
 - trained on DRCT-2M and tested on GenImage
 ![GenImage](./figures/Cross.png)
